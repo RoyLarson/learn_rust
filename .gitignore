@@ -13,3 +13,7 @@ Cargo.lock
 *.pdb
 .vscode/
 target/
+
+#Added by cargo
+
+/target
