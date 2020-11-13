@@ -1,4 +1,4 @@
-/* Primative types in rust
+/* Primitive types in rust
 integers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128 -> {type:(u)nsigned(+ only), (i)nteger(+&-)}{bits allocated}
 floats: f32, f64
 boolean: (bool)

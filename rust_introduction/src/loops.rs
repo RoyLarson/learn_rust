@@ -23,7 +23,7 @@ pub fn run(){
     }
 
     // for range
-    println!("For x in 0..10 FizzBuss");
+    println!("For x in 0..20 FizzBuss");
     for x in 0..20{
         fizzbuzz(x);
     }

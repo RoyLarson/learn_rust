@@ -1,4 +1,4 @@
-// Workiing with Enums:
+// Working with Enums:
 
 enum Movement{
     //Variant
@@ -8,7 +8,7 @@ enum Movement{
     Right,
 }
 
-fn move_avator(m: Movement){
+fn move_avatar(m: Movement){
     // Perform action depending on info
     match  m {
         Movement::Up => println!("Avatar moving up"),
@@ -26,9 +26,9 @@ pub fn run(){
     let avatar3 = Movement::Right;
     let avatar4 = Movement::Down;
 
-    move_avator(avatar1);
-    move_avator(avatar2);
-    move_avator(avatar3);
-    move_avator(avatar4);
+    move_avatar(avatar1);
+    move_avatar(avatar2);
+    move_avatar(avatar3);
+    move_avatar(avatar4);
 
 }

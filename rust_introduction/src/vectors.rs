@@ -1,4 +1,4 @@
-// Vectors are growable arrays - not mathmatical vectors - Why didn't they call them lists?
+// Vectors are growable arrays - not mathematical vectors - Why didn't they call them lists?
 // or something more appropriate
 use std::mem;
 
@@ -35,7 +35,7 @@ pub fn run(){
     println!("partial slice [1..3] -> [1..3): {:?}", slice);
 
     // Make the vector longer
-    println!("Adding number individualy to vector using .push");
+    println!("Adding number individually to vector using .push");
     numbers.push(6);
     numbers.push(10);
     println!("new len of numbers: {}", numbers.len());

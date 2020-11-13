@@ -3,7 +3,7 @@
 pub fn run(){
     println!("\nIn pointers.rs");
 
-    // primative array
+    // primitive array
     let arr1=[1,2,3,4];
     let arr2 = arr1;
 
@@ -25,7 +25,7 @@ pub fn run(){
     // 15 |     println!("Vec values: {:?}", (vec1, vec2));
     //     |                                   ^^^^ value used here after move
 
-    // With non-primatives, if you assing another variable to a piece of data, the
+    // With non-primitives, if you assigning another variable to a piece of data, the
     // first variable will no longer hold that value/ref
     // You'll need to use a reference (&) to point to the
     // resource

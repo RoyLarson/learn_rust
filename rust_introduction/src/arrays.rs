@@ -5,7 +5,7 @@ pub fn run(){
 
     // [{type};{len}]
     let numbers: [i32;5] =[1,2,3,4,5];
-    // let numbers: [i32;5] =[1,2,3,4]; // fails because the length of array doesn't match the lenght of assigned values
+    // let numbers: [i32;5] =[1,2,3,4]; // fails because the length of array doesn't match the length of assigned values
     // let numbers: [i32;5] =[1,2,3,4, 'a']; // fails because the not all data types are consistent in assignment
 
     // Get single value
